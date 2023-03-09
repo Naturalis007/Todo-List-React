@@ -1,12 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-/* 
+body{
+    background: linear-gradient(
+        90deg,
+        rgb(98, 77, 236)0%,
+        rgb(175, 181, 234)100%
+    );
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+   
+.header{
+    color: #7fd9eb;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40 px rgb(56, 185, 241);
+    margin-bottom: 10px;
+}  
 
-    You can write your own styles here...
+  
+    .header h1{
+       color: #fff;
+       font-size: 24px;
+       margin: 30px 0; 
+       
+    }
+   .form{
+       margin-bottom: 32pxpx;
+   }
+
+    .task-input {
+       outline: none;
+       width: 380px;
+       padding: 14px 32px 14px 16px;
+       margin-left: 50px;
+       font-size: 20px;
+       color:#fff;
+       background: transparent;
+       border: 2px solid hsla(254, 79%, 77%, 0.879);
+       border-radius: 4px 0 0 4px;
+       justify-content: center;
+    }
+
+    
+    .button-add {
+        padding: 19px;
+        padding-left: 10px;
+        padding-top: 20px;
+        border: none;
+        border-radius: 0 4px 4 px 0;
+        cursor: pointer;
+        outline: none;
+        background: linear-gradient(90deg,
+        rgb(98, 77, 236)0%,
+        rgb(175, 181, 234)100%);
+        color: #fff;
+        text-transform: capitalize;
+        margin-right: 30px;
+    }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+input.list{
+    outline: none;
+    width: 350px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color:#fff;
+    background: rgba(39, 248, 171, 0.784);
+    justify-content: center;
+    margin-top: 10px;
+    border: rgba(39, 248, 171, 0.784);
+    margin-right: 0px;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+list-item {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;  
+    margin-inline: 0;
+   
+}
+
+
+.button-deleted{
+    padding: 9px;
+    padding-bottom: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background:  rgba(39, 248, 171, 0.784);
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 0;
+    margin-right: 10px;
+    justify-content: center;
+}
