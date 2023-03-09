@@ -6,11 +6,7 @@
 }
 
 body{
-    background: linear-gradient(
-        90deg,
-        rgb(98, 77, 236)0%,
-        rgb(175, 181, 234)100%
-    );
+    background: #9edac4
 }
 .app{
     display: flex;
@@ -18,7 +14,7 @@ body{
     justify-content: start;
     width: 520px;
     min-height: 600px;
-    background: #161a2b;
+    background: #55be98;
     text-align: center;
     margin: 128px auto;
     border-radius: 10px;
@@ -50,9 +46,10 @@ body{
        padding: 14px 32px 14px 16px;
        margin-left: 50px;
        font-size: 20px;
+       font-style: italic;
        color:#fff;
        background: transparent;
-       border: 2px solid hsla(254, 79%, 77%, 0.879);
+       border: 2px solid #164333;
        border-radius: 4px 0 0 4px;
        justify-content: center;
     }
@@ -67,8 +64,8 @@ body{
         cursor: pointer;
         outline: none;
         background: linear-gradient(90deg,
-        rgb(98, 77, 236)0%,
-        rgb(175, 181, 234)100%);
+         #2d8767,
+         #359e78);
         color: #fff;
         text-transform: capitalize;
         margin-right: 30px;

@@ -15,12 +15,12 @@ const Form =({input, setInput, todos, setTodos}) => {
         
        <form onSubmit={onFormSubmit}>
         <input 
-        type="text" placeholder="Enter a Todo ..."
+        type="text" placeholder="escribe aquí tu tarea pendiente"
          className="task-input"
           value={input}
           required
           onChange={onInputChange}/>
-        <button className="button-add" type="submit" >Add</button>
+        <button className="button-add" type="submit" >+</button>
         
     </form>
     
